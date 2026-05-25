@@ -1,0 +1,92 @@
+aid: ocean-network-express
+name: Ocean Network Express
+description: >-
+  Ocean Network Express (ONE) is a Singapore-headquartered global container
+  liner shipping company formed in 2017 through the integration of the
+  container shipping businesses of three Japanese carriers — Nippon Yusen
+  Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line)
+  — with commercial operations launching on 1 April 2018. Operating under
+  the magenta "ONE" brand and the Standard Carrier Alpha Code ONEY, the
+  company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service
+  loops calling at 244+ ports worldwide, making it one of the largest ocean
+  container carriers globally. ONE participates in THE Alliance vessel
+  sharing agreement and offers reefer, dangerous goods, out-of-gauge, and
+  project cargo services alongside standard dry container moves. Its
+  customer-facing digital surface centers on the ONE eCommerce platform
+  (ecomm.one-line.com), which provides cargo tracking, instant quotation
+  via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping
+  instructions, electronic bill of lading, ePayment, and demurrage/detention
+  inquiry. A partner-facing developer portal exists at developers.one-line.com
+  alongside EDI integration channels, but ONE does not publish a fully open,
+  self-service OpenAPI specification, public SDK, or open-source code at
+  either the github.com/ocean-network-express or github.com/OceanNetworkExpress
+  organizations (both exist with zero public repositories). Tracking,
+  booking, and schedule integrations are most commonly accessed by shippers
+  and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo,
+  Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under
+  commercial agreement.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Ocean Shipping
+  - Container Shipping
+  - Liner Shipping
+  - Logistics
+  - Supply Chain
+  - Maritime
+  - Freight
+  - Cargo Tracking
+  - Booking
+  - Bill Of Lading
+  - eBL
+  - Vessel Schedules
+  - THE Alliance
+  - DCSA
+  - EDI
+  - Japan
+  - Singapore
+url: https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.one-line.com
+  - type: eCommerce
+    url: https://ecomm.one-line.com
+  - type: DeveloperPortal
+    url: https://developers.one-line.com
+  - type: CargoTracking
+    url: https://ecomm.one-line.com/one-ecom/manage-shipment/cargo-tracking
+  - type: InstantQuote
+    url: https://ecomm.one-line.com/one-ecom/quote/quotation
+  - type: Schedules
+    url: https://ecomm.one-line.com/one-ecom/schedule/by-port
+  - type: VesselSchedule
+    url: https://ecomm.one-line.com/one-ecom/schedule/vessel-schedule
+  - type: ServiceMap
+    url: https://www.one-line.com/en/standard-page/service-map
+  - type: MobileApp
+    url: https://apps.apple.com/us/app/ocean-network-express/id1567358337
+  - type: News
+    url: https://www.one-line.com/en/news
+  - type: About
+    url: https://www.one-line.com/en/about-us
+  - type: ContactUs
+    url: https://www.one-line.com/en/standard-page/contact-us
+  - type: GitHub
+    url: https://github.com/ocean-network-express
+  - type: GitHubLegacy
+    url: https://github.com/OceanNetworkExpress
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ocean-network-express-pte-ltd-
+  - type: Twitter
+    url: https://twitter.com/ONE_LINE_Global
+  - type: YouTube
+    url: https://www.youtube.com/@OceanNetworkExpressPteLtd
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
